@@ -90,7 +90,7 @@ st.write("#")
 st.subheader("Hard Skills")
 st.write(
     """
-- 🖥️ Programming: Python (cisco networking academy, Pandas), SQL, Big Query, html, css, java script
+- 🖥️ Programming: Python (cisco networking academy, Pandas, streamlit, flask), SQL, Big Query, html, css, java script
 - 📊 Data Visulization: PowerBI, MS Excel
 - 🗂️ Modeling: Logistic regression, linear regression, decition trees
 - 📚 Databases: Dataverse, Sharepoint
