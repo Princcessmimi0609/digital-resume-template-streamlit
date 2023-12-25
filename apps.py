@@ -27,7 +27,7 @@ SOCIAL_MEDIA = {
 }
 
 PROJECTS = {
-    "Small Farm Promotion": "https://princcessmimi0609.github.io/farmabbrington/"
+    "🏆Small Farm Promotion": "https://princcessmimi0609.github.io/farmabbrington/"
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
