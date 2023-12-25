@@ -27,7 +27,14 @@ SOCIAL_MEDIA = {
 }
 
 PROJECTS = {
-    "🏆Small Farm Promotion": "https://princcessmimi0609.github.io/farmabbrington/"
+    "🏆Small Farm Promotion": "https://princcessmimi0609.github.io/farmabbrington/",
+
+    "🏆Sales Data Anaylst SQL": "https://youtu.be/XLcHLx4LzOc?si=L0VhHKrazxccmft6",
+
+    "🏆Nominal Account Anaylst PowerBI": "https://youtu.be/b-VroDgbXEc?si=gqBk2fkKm87Wqzgq",
+    
+    "🏆PowerApps Company Director": "https://youtu.be/HynqITvlmOs?si=vgBNWR3O-lgL7Nul",
+    
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
