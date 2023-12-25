@@ -21,7 +21,7 @@ Senior Data Analyst, assisting enterprises by support data-driven decision-makin
 
 EMAIL = "annayuen1990@gmail.com"
 SOCIAL_MEDIA = {
-    "YouTube": "https://www.youtube.com/c/codingisfun",
+    "YouTube": "https://www.linkedin.com/in/anna-yuen-651862165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGT9t6ZWvRru88reV4qHgiA%3D%3D",
     "LinkedIn": "https://www.linkedin.com/in/anna-yuen-651862165/",
     "GitHub": "https//github.com"
 }
