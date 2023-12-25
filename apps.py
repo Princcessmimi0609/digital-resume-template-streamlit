@@ -11,23 +11,23 @@ resume_file = current_dir / "assets" / "Resume-Anna-Yuen.pdf"
 profile_pic = current_dir / "assets" / "FaJeh.jpg"
 
 
-# --- GEMERAL SETTINGS ---
+# --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Anna Yuen"
-PAGE_ICON = ":WAVE:"
+PAGE_ICON = "👋"
 NAME = "Anna Yuen"
 Description = """
-Senior Data Analyst, assisting enterprises by support data-driven decision-making.
+Self-directed Learner in Low Code and Data Analytics, .
 """
 
 EMAIL = "annayuen1990@gmail.com"
 SOCIAL_MEDIA = {
-    "YouTube": "https://www.linkedin.com/in/anna-yuen-651862165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGT9t6ZWvRru88reV4qHgiA%3D%3D",
-    "LinkedIn": "https://www.linkedin.com/in/anna-yuen-651862165/",
-    "GitHub": "https//github.com"
+    "YouTube": "https://www.youtube.com/channel/UCV-qCme6GVUe9GZ4uto0mJQ",
+    "LinkedIn": "https://www.linkedin.com/in/anna-yuen-651862165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGT9t6ZWvRru88reV4qHgiA%3D%3D",
+    "GitHub": "https://github.com/Princcessmimi0609"
 }
 
 PROJECTS = {
-
+    "Small Farm Promotion": "https://princcessmimi0609.github.io/farmabbrington/"
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -71,7 +71,7 @@ st.subheader("Experience & Qualifications")
 st.write(
     """
 
-- ✔️ 7 years experience extracting actionable insights from data
+- ✔️ 10 years experience extracting actionable insights from accounting data
 - ✔️ strong hands on experience and knowledge in Python and Excel
 - ✔️ Good understandning of statistical principles and their respective applications
 - ✔️ Excellent team-player and displaying strong sense of initiative on task
@@ -83,10 +83,10 @@ st.write("#")
 st.subheader("Hard Skills")
 st.write(
     """
-- 🖥️ Programming: Python (Scikit-learn, Pandas), SQL, VBA
-- 📊 Data Visulization: PowerBI, MS Excel, Plotly
+- 🖥️ Programming: Python (cisco networking academy, Pandas), SQL, Big Query, html, css, java script
+- 📊 Data Visulization: PowerBI, MS Excel
 - 🗂️ Modeling: Logistic regression, linear regression, decition trees
-- 📚 Databases: Postgres, MongoDB, MySQL
+- 📚 Databases: Dataverse, Sharepoint
 """ 
 )
 
@@ -96,15 +96,14 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("👔", "**Senior Data Analyst | Ross Industries**")
+st.write("👔", "**Accounts Assistant | MTP LTD**")
 st.write("02/2020 - Present")
 st.write(
     """
 - ➡️ Used PowerBI and SQL to redefine and track KPIs surrounding marketing initiatives,
 and supplied recommendations to boost landing page conversion rate by 38%
-- ➡️ Led a team of 4 analysts to brainstorm potential marketing and sales improvements,
-and implemented A/B tests to generate 15% more client leads
 - ➡️ Redesigned data model throught iterations that imporved predictions by 12%
+- ➡️ General accounting duties & staff expenses claim
     """
 )
 
@@ -115,6 +114,5 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
-
 
 
