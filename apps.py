@@ -104,7 +104,7 @@ st.write("---")
 
 # --- JOB 1
 st.write("👔", "**Accounts Assistant | MTP LTD**")
-st.write("08/2023 - Present")
+st.write("August/2023 - July/2024")
 st.write(
     """
 - ➡️ Used PowerBI and SQL to redefine and track KPIs surrounding marketing initiatives,
