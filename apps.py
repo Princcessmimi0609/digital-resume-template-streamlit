@@ -21,7 +21,7 @@ Self-directed Learner in Low Code and Data Analytics, .
 
 EMAIL = "annayuen1990@gmail.com"
 SOCIAL_MEDIA = {
-    "YouTube": "https://www.youtube.com/channel/UCV-qCme6GVUe9GZ4uto0mJQ",
+    "YouTube": "https://www.youtube.com/channel/UCgU34DR4V78p1aMvFFu7Vgw",
     "LinkedIn": "https://www.linkedin.com/in/anna-yuen-651862165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGT9t6ZWvRru88reV4qHgiA%3D%3D",
     "GitHub": "https://github.com/Princcessmimi0609"
 }
@@ -29,11 +29,11 @@ SOCIAL_MEDIA = {
 PROJECTS = {
     "🏆Small Farm Promotion": "https://princcessmimi0609.github.io/farmabbrington/",
 
-    "🏆Sales Data Anaylst SQL": "https://youtu.be/XLcHLx4LzOc?si=L0VhHKrazxccmft6",
+    "🏆Sales Data Analyst SQL": "https://youtu.be/AQA9vEC3u_I",
 
-    "🏆Nominal Account Anaylst PowerBI": "https://youtu.be/b-VroDgbXEc?si=gqBk2fkKm87Wqzgq",
+    "🏆Nominal Account Analyst PowerBI": "https://youtu.be/Q4tD_YmrqiA",
     
-    "🏆PowerApps Company Director": "https://youtu.be/HynqITvlmOs?si=vgBNWR3O-lgL7Nul",
+    "🏆PowerApps Company Director": "https://youtu.be/Q4tD_YmrqiA",
     
 }
 
