@@ -16,7 +16,7 @@ PAGE_TITLE = "Digital CV | Anna Yuen"
 PAGE_ICON = "👋"
 NAME = "Anna Yuen"
 Description = """
-Self-directed Learner in Low Code and Data Analytics, .
+Self-directed Learner in Low Code/No code and Data Analytics
 """
 
 EMAIL = "annayuen1990@gmail.com"
