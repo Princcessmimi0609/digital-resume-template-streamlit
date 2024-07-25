@@ -79,9 +79,9 @@ st.write(
     """
 
 - ✔️ 10 years experience extracting actionable insights from accounting data
-- ✔️ strong hands on experience and knowledge in Python and Excel
-- ✔️ Good understandning of statistical principles and their respective applications
-- ✔️ Excellent team-player and displaying strong sense of initiative on task
+- ✔️ strong hands-on experience and knowledge in Python and Excel
+- ✔️ Good understanding of statistical principles and their respective applications
+- ✔️ Excellent team player and displaying a strong sense of initiative on task
 """
 )
 
@@ -90,9 +90,9 @@ st.write("#")
 st.subheader("Hard Skills")
 st.write(
     """
-- 🖥️ Programming: Python (cisco networking academy, Pandas, streamlit, flask), SQL, Big Query, html, css, java script
-- 📊 Data Visulization: PowerBI, MS Excel
-- 🗂️ Modeling: Logistic regression, linear regression, decition trees
+- 🖥️ Programming: Python (Cisco Networking Academy, Pandas, Streamlit, flask), SQL, Big Query, HTML, CSS, javascript
+- 📊 Data Visualization: PowerBI, MS Excel
+- 🗂️ Modeling: Logistic regression, linear regression, decision trees
 - 📚 Databases: Dataverse, Sharepoint
 """ 
 )
@@ -108,8 +108,8 @@ st.write("08/2023 - Present")
 st.write(
     """
 - ➡️ Used PowerBI and SQL to redefine and track KPIs surrounding marketing initiatives,
-and supplied recommendations to boost landing page conversion rate by 38%
-- ➡️ Redesigned data model throught iterations that imporved predictions by 12%
+and supplied recommendations to boost the landing page conversion rate by 38%
+- ➡️ Redesigned data model through iterations that improved predictions by 12%
 - ➡️ General accounting duties & staff expenses claim
     """
 )
