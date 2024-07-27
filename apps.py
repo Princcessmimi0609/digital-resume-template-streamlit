@@ -26,16 +26,7 @@ SOCIAL_MEDIA = {
     "GitHub": "https://github.com/Princcessmimi0609"
 }
 
-PROJECTS = {
-    "🏆Small Farm Promotion": "https://princcessmimi0609.github.io/farmabbrington/",
 
-    "🏆Sales Data Analyst SQL": "https://youtu.be/AQA9vEC3u_I",
-
-    "🏆Nominal Account Analyst PowerBI": "https://youtu.be/Q4tD_YmrqiA",
-    
-    "🏆PowerApps Company Director": "https://youtu.be/Q4tD_YmrqiA",
-    
-}
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -79,9 +70,9 @@ st.write(
     """
 
 - ✔️ 10 years experience extracting actionable insights from accounting data
-- ✔️ strong hands-on experience and knowledge in Python and Excel
+- ✔️ Strong hands-on experience and knowledge in Python and Excel
 - ✔️ Good understanding of statistical principles and their respective applications
-- ✔️ Excellent team player and displaying a strong sense of initiative on task
+- ✔️ Excellent team player displaying a strong sense of initiative on tasks
 """
 )
 
@@ -90,10 +81,13 @@ st.write("#")
 st.subheader("Hard Skills")
 st.write(
     """
-- 🖥️ Programming: Python (Cisco Networking Academy, Pandas, Streamlit, flask), SQL, Big Query, HTML, CSS, javascript, MySQL and SQL Server under databases
-- 📊 Data Visualization: PowerBI, MS Excel
-- 🗂️ Modeling: Logistic regression, linear regression, decision trees
-- 📚 Databases: Dataverse, Sharepoint
+- 🖥️ Programming: Python (Library: pandas, Framework: Streamlit, Flask 3.0), Power Fx, DAX Query, Google Visualization API Query Language, 
+      Google Apps Script, JavaScript, SQL, Big Query, HTML and CSS  
+- 🖥️ Low-code/No-code: Microsoft Power Platform and Google AppSheet 
+- 📊 Data Visualization: PowerBI and MS Excel
+- 🗂️ Modeling: Logistic regression, linear regression and decision trees
+- 📚 Databases: Dataverse, SharePoint Lists, MySQL 8.0, SQL Server 2022 and Google Sheets (as a database) 
+- 📄 Administration: M365 Admin and Google Workspace Admin
 """ 
 )
 
@@ -107,8 +101,8 @@ st.write("👔", "**Accounts Assistant | MTP LTD**")
 st.write("08/2023 - 07/2024")
 st.write(
     """
-- ➡️ Used PowerBI and SQL to redefine and track KPIs surrounding marketing initiatives,
-and supplied recommendations to boost the landing page conversion rate by 38%
+- ➡️ Used Microsoft PowerBI and SQL Server Management Studio to redefine and track KPIs surrounding marketing initiatives,
+      and supplied recommendations to boost the landing page conversion rate by 38%
 - ➡️ Redesigned data model through iterations that improved predictions by 12%
 - ➡️ General accounting duties & staff expenses claim
     """
@@ -118,8 +112,31 @@ and supplied recommendations to boost the landing page conversion rate by 38%
 # --- PROJECTS & ACCOMPLISHMENTS ---
 st.write("#")
 st.subheader("Projects & Accomplishments")
-st.write("---")
-for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
+st.write("""---
 
+    🏆Website for Community Organisation https://princcessmimi0609.github.io/farmabbrington/
+    - Using HTML 5, CSS 3 and JavaScript
+    
+    🏆Sales Data Analysis https://youtu.be/AQA9vEC3u_I
+    - Using Microsoft SQL Server Management consuming data from Dynamic 365 
+
+    🏆Nominal Account Analysis https://youtu.be/lvUMjgELtqo
+    - Power BI reports built consuming data from Dynamic 365 Finance & Accounting Module 
+    
+    🏆PowerApps Company Director https://youtu.be/Q4tD_YmrqiA
+    - Using Power Apps built consuming data from Google Sheets            
+         """)
+    
+   
+
+
+
+# --- EDUCATION ---
+st.write("#")
+st.subheader("Hard Skills")
+st.write(
+    """
+- Python (Cisco Networking Academy)
+""" 
+)
 
