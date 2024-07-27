@@ -21,7 +21,7 @@ Self-directed Learner in Low Code/No code and Data Analytics
 EMAIL = "annayuen1990@gmail.com"
 SOCIAL_MEDIA = {
     "YouTube": "https://www.youtube.com/channel/UCgU34DR4V78p1aMvFFu7Vgw",
-    "LinkedIn": "https://www.linkedin.com/in/anna-yuen-651862165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGT9t6ZWvRru88reV4qHgiA%3D%3D",
+    "LinkedIn": "https://www.linkedin.com/in/anna-yuen-651862165",
     "GitHub": "https://github.com/Princcessmimi0609"
 }
 PROJECTS = {
