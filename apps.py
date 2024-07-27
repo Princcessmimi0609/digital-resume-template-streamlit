@@ -18,18 +18,36 @@ NAME = "Anna Yuen"
 Description = """
 Self-directed Learner in Low Code/No code and Data Analytics
 """
-
 EMAIL = "annayuen1990@gmail.com"
 SOCIAL_MEDIA = {
     "YouTube": "https://www.youtube.com/channel/UCgU34DR4V78p1aMvFFu7Vgw",
     "LinkedIn": "https://www.linkedin.com/in/anna-yuen-651862165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGT9t6ZWvRru88reV4qHgiA%3D%3D",
     "GitHub": "https://github.com/Princcessmimi0609"
 }
+PROJECT = {
+    "🏆Website for Community Organisation": {
+        "Link": "https://princcessmimi0609.github.io/farmabbrington/",
+        "Description": "- Using HTML 5, CSS 3 and JavaScript"
+    },
+    
+    "🏆Sales Data Analysis": {
+        "Link": "https://youtu.be/AQA9vEC3u_I",
+        "Description": "- Using Microsoft SQL Server Management consuming data from Dynamic 365"
+    },
 
+    "🏆Nominal Account Analysis": {
+        "Link": "https://youtu.be/lvUMjgELtqo",
+        "Description": "- Power BI reports built consuming data from Dynamic 365 Finance & Accounting Module"
+    },
+
+    "🏆PowerApps Company Director": {
+        "Link": "https://youtu.be/Q4tD_YmrqiA",
+        "Description": "- Using Power Apps built consuming data from Google Sheets"            
+        }
+}
 
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
-
 
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
@@ -112,23 +130,10 @@ st.write(
 # --- PROJECTS & ACCOMPLISHMENTS ---
 st.write("#")
 st.subheader("Projects & Accomplishments")
-st.write("""---
-
-    🏆Website for Community Organisation https://princcessmimi0609.github.io/farmabbrington/
-    - Using HTML 5, CSS 3 and JavaScript
-    
-    🏆Sales Data Analysis https://youtu.be/AQA9vEC3u_I
-    - Using Microsoft SQL Server Management consuming data from Dynamic 365 
-
-    🏆Nominal Account Analysis https://youtu.be/lvUMjgELtqo
-    - Power BI reports built consuming data from Dynamic 365 Finance & Accounting Module 
-    
-    🏆PowerApps Company Director https://youtu.be/Q4tD_YmrqiA
-    - Using Power Apps built consuming data from Google Sheets            
-         """)
-    
-   
-
+st.write("""---""")
+for project, value in PROJECTS.items():
+    st.write(f"""[{project}]({value['link']})
+value['description']""")
 
 
 # --- EDUCATION ---
