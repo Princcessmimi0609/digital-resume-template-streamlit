@@ -134,7 +134,7 @@ st.write("""---""")
 for key, value in PROJECTS.items():
     st.write(f"""
 [{key}]({value['Link']})
-value['Description']""")
+{value['Description']}""")
 
 
 # --- EDUCATION ---
