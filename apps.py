@@ -131,9 +131,10 @@ st.write(
 st.write("#")
 st.subheader("Projects & Accomplishments")
 st.write("""---""")
-for project, value in PROJECTS.items():
-    st.write(f"""[{project}]({value['link']})
-value['description']""")
+for key, value in PROJECTS.items():
+    st.write(f"""
+[{key}]({value['Link']})
+value['Description']""")
 
 
 # --- EDUCATION ---
