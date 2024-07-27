@@ -139,10 +139,10 @@ for key, value in PROJECTS.items():
 
 # --- EDUCATION ---
 st.write("#")
-st.subheader("Hard Skills")
+st.subheader("Education")
 st.write(
     """
-- Python (Cisco Networking Academy)
+    - Python (Cisco Networking Academy)
 """ 
 )
 
