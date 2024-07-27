@@ -24,7 +24,7 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/anna-yuen-651862165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGT9t6ZWvRru88reV4qHgiA%3D%3D",
     "GitHub": "https://github.com/Princcessmimi0609"
 }
-PROJECT = {
+PROJECTS = {
     "🏆Website for Community Organisation": {
         "Link": "https://princcessmimi0609.github.io/farmabbrington/",
         "Description": "- Using HTML 5, CSS 3 and JavaScript"
