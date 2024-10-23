@@ -37,6 +37,7 @@ PROJECTS = {
     
 
      "👉 PowerApps for Hotel Booking System": {
+          "Link": "",
          "Description": """Developed a Power Apps interface for booking and approval processes, automated notifications and approvals with Power Automate,
                         and integrated SharePoint for data storage and reporting."""  
         },
@@ -158,15 +159,11 @@ st.write(
 
 
 # --- PROJECTS & ACCOMPLISHMENTS ---
-st.write("#")
+st.write('\n')
 st.subheader("Projects")
-st.write("""---""")
-for key, value in projects.items():
-    # Check if 'Link' exists before trying to access it
-    if 'Link' in value:
-        st.write(f"[{key}]({value['Link']})")
-    else:
-        st.write(f"{key}: {value['Description']}")
+st.write("---")
+for project, link in PROJECTS.items():
+    st.write(f"[{project}]({link})")
 
 
 # --- EDUCATION ---
