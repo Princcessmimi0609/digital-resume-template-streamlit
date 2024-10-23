@@ -7,7 +7,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "_file_" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "Resume-Anna-Yuen.pdf"
+resume_file = current_dir / "assets" / "Anna Yuen-CV.pdf"
 profile_pic = current_dir / "assets" / "FaJeh.jpg"
 
 
@@ -37,7 +37,6 @@ PROJECTS = {
     
 
      "👉 PowerApps for Hotel Booking System": {
-        "Link": "https://youtu.be/DTncc0WHYWo?si=4AFtOHiicIIfJ-D1",
         "Description": """Developed a Power Apps interface for booking and approval processes, automated notifications and approvals with Power Automate,
                         and integrated SharePoint for data storage and reporting."""  
         },
