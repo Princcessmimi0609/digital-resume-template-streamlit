@@ -27,7 +27,7 @@ SOCIAL_MEDIA = {
 
 PROJECTS = {
     "🏆PowerApps for Expenses Management App": {
-        "Link": "https://youtu.be/DTncc0WHYWo?si=4AFtOHiicIIfJ-D1"\n,
+        "Link": "https://youtu.be/DTncc0WHYWo?si=4AFtOHiicIIfJ-D1",
         "Description": """I developed an Expenses App using Power Apps to streamline expense tracking and approval.
                         It uses AI Builder to extract data from receipts, categorizes expenses (e.g., Meals, IT Hardware),
                         and stores data in SharePoint. The app automates the approval process based on predefined thresholds,
@@ -36,19 +36,19 @@ PROJECTS = {
         },
 
     "🏆Python(Django) for Attendance Record": {
-        "Link": "https://github.com/Princcessmimi0609/Django\n",
+        "Link": "https://github.com/Princcessmimi0609/Django",
         "Description": "Attendance Record for Church"
     },
     
     "🏆SQL for Sales Data Analyst": {
-        "Link": "https://youtu.be/AQA9vEC3u_I\n",
+        "Link": "https://youtu.be/AQA9vEC3u_I",
         "Description": """This video offers a comprehensive introduction to SQL, covering essential concepts like data retrieval,
                         filtering, and aggregation using SELECT queries. Perfect for beginners, the presentation walks through
                         key SQL commands with examples, helping viewers understand how to manage and manipulate databases effectively."""
     },
 
     "🏆Power BI for Proft & Loss Analyst": {
-        "Link": "https://youtu.be/lvUMjgELtqo\n",
+        "Link": "https://youtu.be/lvUMjgELtqo",
         "Description": """This Power BI dashboard provides a detailed analysis of profit and loss (P&L) by GL account,
                         offering insights into revenue, expenses, and profitability. It allows users to drill down
                         into specific accounts, track performance trends, and analyze variances. With interactive visuals
