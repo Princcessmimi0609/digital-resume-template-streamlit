@@ -26,28 +26,34 @@ SOCIAL_MEDIA = {
 }
 
 PROJECTS = {
-    "🏆PowerApps for Expenses Management App": {
+    "👉PowerApps for Expenses Management App": {
         "Link": "https://youtu.be/DTncc0WHYWo?si=4AFtOHiicIIfJ-D1",
-        "Description": """I developed an Expenses App using Power Apps to streamline expense tracking and approval.
+        "Description": """Developed an Expenses App using Power Apps to streamline expense tracking and approval.
                         It uses AI Builder to extract data from receipts, categorizes expenses (e.g., Meals, IT Hardware),
                         and stores data in SharePoint. The app automates the approval process based on predefined thresholds,
                         sending notifications for timely reviews. A dashboard provides real-time tracking, making expense management
                         more efficient and transparent."""           
         },
 
-    "🏆Python(Django) for Attendance Record": {
+     "👉PowerApps for Hotel Booking System": {
+        "Link": "https://youtu.be/DTncc0WHYWo?si=4AFtOHiicIIfJ-D1",
+        "Description": """Developed a Power Apps interface for booking and approval processes, automated notifications and approvals with Power Automate,
+                        and integrated SharePoint for data storage and reporting."""  
+        },
+
+    "👉Python(Django) for Attendance Record": {
         "Link": "https://github.com/Princcessmimi0609/Django",
         "Description": "Attendance Record for Church"
     },
     
-    "🏆SQL for Sales Data Analyst": {
+    "👉SQL for Sales Data Analyst": {
         "Link": "https://youtu.be/AQA9vEC3u_I",
         "Description": """This video offers a comprehensive introduction to SQL, covering essential concepts like data retrieval,
                         filtering, and aggregation using SELECT queries. Perfect for beginners, the presentation walks through
                         key SQL commands with examples, helping viewers understand how to manage and manipulate databases effectively."""
     },
 
-    "🏆Power BI for Proft & Loss Analyst": {
+    "👉Power BI for Proft & Loss Analyst": {
         "Link": "https://youtu.be/lvUMjgELtqo",
         "Description": """This Power BI dashboard provides a detailed analysis of profit and loss (P&L) by GL account,
                         offering insights into revenue, expenses, and profitability. It allows users to drill down
@@ -91,55 +97,68 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-# --- EXPERIENCE & QUALIFICATIONS ---
+# --- Profile Summary ---
 st.write("#")
-st.subheader("Experience & Qualifications")
+st.subheader("Profile Summary")
 st.write(
     """
 
-- ✔️ 10 years experience extracting actionable insights from accounting data
-- ✔️ Strong hands-on experience and knowledge in Python and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
-- ✔️ Excellent team player displaying a strong sense of initiative on tasks
+Self-taught and motivated Power Apps Developer with expertise in low-code application development, automation, and data integration. 
+Skilled in building custom apps using Power Apps, automating workflows with Power Automate, and enhancing user experience with AI Builder. 
+Proficient in Python and experienced in leveraging tools like SharePoint, SQL, and Google BigQuery to create efficient, scalable business solutions. 
+Passionate about problem-solving and streamlining business processes through innovative technology.
 """
 )
 
 # --- SKILLS ---
 st.write("#")
-st.subheader("Hard Skills")
+st.subheader("Skills")
 st.write(
     """
-- 🖥️ Programming: Python (Library: pandas, Framework: Streamlit, Flask 3.0), Power Fx, DAX Query, Google Visualization API Query Language, 
-      Google Apps Script, JavaScript, SQL, Big Query, HTML and CSS  
-- 🖥️ Low-code/No-code: Microsoft Power Platform and Google AppSheet 
-- 📊 Data Visualization: PowerBI and MS Excel
-- 🗂️ Modeling: Logistic regression, linear regression and decision trees
-- 📚 Databases: Dataverse, SharePoint Lists, MySQL 8.0, SQL Server 2022 and Google Sheets (as a database) 
-- 📄 Administration: M365 Admin and Google Workspace Admin
+- Power Apps: Custom app development, data integration, UI design
+- Power Automate: Workflow automation, approval processes, task automation
+- AI Builder: Receipt processing, automated document extraction
+- Python: Data analysis, automation scripts, web development (Django)
+- SharePoint: List management, data integration, process automation
+- SQL & Google BigQuery: Data manipulation, reporting, querying
+- Other Tools: Power BI, HTML, CSS, JavaScript, Microsoft SQL Server, MySQL
 """ 
 )
 
 # --- WORK HISTORY ---
 st.write("#")
-st.subheader("Work History")
+st.subheader("Professional Experience")
 st.write("---")
 
 # --- JOB 1
-st.write("👔", "**Accounts Assistant | MTP LTD**")
+st.write("**Accounts Assistant | Mallinson Television Productions Ltd – Scotland**")
 st.write("08/2023 - 07/2024")
 st.write(
     """
-- ➡️ Used Microsoft PowerBI and SQL Server Management Studio to redefine and track KPIs surrounding marketing initiatives,
-      and supplied recommendations to boost the landing page conversion rate by 38%
-- ➡️ Redesigned data model through iterations that improved predictions by 12%
-- ➡️ General accounting duties & staff expenses claim
+- Manage general accounting duties including accounts payable, receivable, and financial reporting.
+- Develop automated solutions using Power Apps and Power Automate to streamline internal workflows, 
+  including an Expenses Management System and a Hotel Booking System.
+- Created dashboards and data reports using Power BI for data analysis and business insights.
+- Collaborate with cross-functional teams to improve data tracking, financial reporting, and operational 
+  efficiency using SharePoint and Power Platform tools.
+    """
+)
+
+# --- JOB 2
+st.write("**Capgemini – Power Apps Presentation Inviteed**")
+st.write("26/9/2024")
+st.write(
+    """
+- Invited to share experiences of transitioning to IT and demonstrate Power Apps solutions developed, 
+  such as an Expenses Management System and AI-driven workflows.
+- Showcased expertise in app development, automation with Power Automate, and AI integration using AI Builder.
     """
 )
 
 
 # --- PROJECTS & ACCOMPLISHMENTS ---
 st.write("#")
-st.subheader("Projects & Accomplishments")
+st.subheader("Projects")
 st.write("""---""")
 for key, value in PROJECTS.items():
     st.write(f"""
