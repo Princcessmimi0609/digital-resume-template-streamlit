@@ -179,3 +179,12 @@ st.write(
 """ 
 )
 
+# --- Additional Information ---
+st.write("#")
+st.subheader("Reference")
+st.write(
+    """
+- Available upon request.
+""" 
+)
+
