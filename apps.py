@@ -141,7 +141,7 @@ st.write(
 - Created dashboards and data reports using Power BI for data analysis and business insights.
 - Collaborate with cross-functional teams to improve data tracking, financial reporting, and operational 
   efficiency using SharePoint and Power Platform tools.
-    """
+"""
 )
 
 # --- JOB 2
@@ -152,7 +152,7 @@ st.write(
 - Invited to share experiences of transitioning to IT and demonstrate Power Apps solutions developed, 
   such as an Expenses Management System and AI-driven workflows.
 - Showcased expertise in app development, automation with Power Automate, and AI integration using AI Builder.
-    """
+"""
 )
 
 
@@ -171,7 +171,7 @@ st.write("#")
 st.subheader("Education")
 st.write(
     """
-    - Python (Cisco Networking Academy)
+- Python (Cisco Networking Academy)
 """ 
 )
 
