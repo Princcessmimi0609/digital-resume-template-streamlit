@@ -34,6 +34,7 @@ PROJECTS = {
                         sending notifications for timely reviews. A dashboard provides real-time tracking, making expense management
                         more efficient and transparent."""           
         },
+    
 
      "👉 PowerApps for Hotel Booking System": {
         "Link": "https://youtu.be/DTncc0WHYWo?si=4AFtOHiicIIfJ-D1",
@@ -41,10 +42,14 @@ PROJECTS = {
                         and integrated SharePoint for data storage and reporting."""  
         },
 
+    
+
     "👉 Python(Django) for Attendance Record": {
         "Link": "https://github.com/Princcessmimi0609/Django",
         "Description": "Attendance Record for Church"
     },
+
+    
     
     "👉 SQL for Sales Data Analyst": {
         "Link": "https://youtu.be/AQA9vEC3u_I",
@@ -52,6 +57,8 @@ PROJECTS = {
                         filtering, and aggregation using SELECT queries. Perfect for beginners, the presentation walks through
                         key SQL commands with examples, helping viewers understand how to manage and manipulate databases effectively."""
     },
+
+    
 
     "👉 Power BI for Proft & Loss Analyst": {
         "Link": "https://youtu.be/lvUMjgELtqo",
@@ -114,7 +121,7 @@ Passionate about problem-solving and streamlining business processes through inn
 st.write("#")
 st.subheader("Skills")
 st.write(
-    """
+description = """
 - Power Apps: Custom app development, data integration, UI design
 - Power Automate: Workflow automation, approval processes, task automation
 - AI Builder: Receipt processing, automated document extraction
@@ -134,7 +141,7 @@ st.write("---")
 st.write("**Accounts Assistant | Mallinson Television Productions Ltd – Scotland**")
 st.write("08/2023 - 07/2024")
 st.write(
-    """
+description = """
 - Manage general accounting duties including accounts payable, staff reimbursement and credit card reconciliation.
 """
 )
@@ -143,7 +150,7 @@ st.write(
 st.write("**Capgemini – Power Apps Presentation Inviteed**")
 st.write("26/9/2024")
 st.write(
-    """
+description = """
 - Invited to share experiences of transitioning to IT and demonstrate Power Apps solutions developed, 
   such as an Expenses Management System and AI-driven workflows.
 - Showcased expertise in app development, automation with Power Automate, and AI integration using AI Builder.
@@ -165,7 +172,7 @@ for key, value in PROJECTS.items():
 st.write("#")
 st.subheader("Education")
 st.write(
-    """
+description = """
 - Python (Cisco Networking Academy)
 """ 
 )
