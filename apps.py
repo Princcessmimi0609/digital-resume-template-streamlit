@@ -162,8 +162,8 @@ st.write(
 st.write('\n')
 st.subheader("Projects")
 st.write("---")
-for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
+for project, details in PROJECTS.items():
+    st.write(f"[{project}]({details['Link']}) - {details['Description']}")
 
 
 # --- EDUCATION ---
