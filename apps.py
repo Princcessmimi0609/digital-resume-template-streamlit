@@ -135,12 +135,7 @@ st.write("**Accounts Assistant | Mallinson Television Productions Ltd – Scotla
 st.write("08/2023 - 07/2024")
 st.write(
     """
-- Manage general accounting duties including accounts payable, receivable, and financial reporting.
-- Develop automated solutions using Power Apps and Power Automate to streamline internal workflows, 
-  including an Expenses Management System and a Hotel Booking System.
-- Created dashboards and data reports using Power BI for data analysis and business insights.
-- Collaborate with cross-functional teams to improve data tracking, financial reporting, and operational 
-  efficiency using SharePoint and Power Platform tools.
+- Manage general accounting duties including accounts payable, staff reimbursement and credit card reconciliation.
 """
 )
 
