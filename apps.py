@@ -28,11 +28,11 @@ SOCIAL_MEDIA = {
 PROJECTS = {
     "🏆PowerApps for Expenses Management App": {
         "Link": "https://youtu.be/DTncc0WHYWo?si=4AFtOHiicIIfJ-D1",
-        "Description": "I developed an Expenses App using Power Apps to streamline expense tracking and approval.\ 
-                        It uses AI Builder to extract data from receipts, categorizes expenses (e.g., Meals, IT Hardware),\ 
-                        and stores data in SharePoint. The app automates the approval process based on predefined thresholds,\ 
-                        sending notifications for timely reviews. A dashboard provides real-time tracking, making expense management\ 
-                        more efficient and transparent."            
+        "Description": """I developed an Expenses App using Power Apps to streamline expense tracking and approval.
+                        It uses AI Builder to extract data from receipts, categorizes expenses (e.g., Meals, IT Hardware),
+                        and stores data in SharePoint. The app automates the approval process based on predefined thresholds,
+                        sending notifications for timely reviews. A dashboard provides real-time tracking, making expense management
+                        more efficient and transparent."""           
         },
 
     "🏆Python(Django) for Attendance Record": {
@@ -42,17 +42,17 @@ PROJECTS = {
     
     "🏆SQL for Sales Data Analyst": {
         "Link": "https://youtu.be/AQA9vEC3u_I",
-        "Description": "This video offers a comprehensive introduction to SQL, covering essential concepts like data retrieval,\ 
-                        filtering, and aggregation using SELECT queries. Perfect for beginners, the presentation walks through\ 
-                        key SQL commands with examples, helping viewers understand how to manage and manipulate databases effectively."
+        "Description": """This video offers a comprehensive introduction to SQL, covering essential concepts like data retrieval,
+                        filtering, and aggregation using SELECT queries. Perfect for beginners, the presentation walks through
+                        key SQL commands with examples, helping viewers understand how to manage and manipulate databases effectively."""
     },
 
     "🏆Power BI for Proft & Loss Analyst": {
         "Link": "https://youtu.be/lvUMjgELtqo",
-        "Description": "This Power BI dashboard provides a detailed analysis of profit and loss (P&L) by GL account,\ 
-                        offering insights into revenue, expenses, and profitability. It allows users to drill down\ 
-                        into specific accounts, track performance trends, and analyze variances. With interactive visuals\
-                        and real-time data integration, it helps streamline financial analysis and decision-making"
+        "Description": """This Power BI dashboard provides a detailed analysis of profit and loss (P&L) by GL account,
+                        offering insights into revenue, expenses, and profitability. It allows users to drill down
+                        into specific accounts, track performance trends, and analyze variances. With interactive visuals
+                        and real-time data integration, it helps streamline financial analysis and decision-making"""
     }
 }
 
