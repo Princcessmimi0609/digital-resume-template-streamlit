@@ -16,34 +16,44 @@ PAGE_TITLE = "Digital CV | Anna Yuen"
 PAGE_ICON = "👋"
 NAME = "Anna Yuen"
 Description = """
-Self-directed Learner in Data Analytics, Low code and pro code
+Self-directed Learner in Data Analytics, Low-code and pro-code
 """
 EMAIL = "annayuen1990@gmail.com"
 SOCIAL_MEDIA = {
-    "YouTube": "https://www.youtube.com/channel/UCgU34DR4V78p1aMvFFu7Vgw",
+    "YouTube": "http://www.youtube.com/@No-codeandLow-code-l2w",
     "LinkedIn": "https://www.linkedin.com/in/anna-yuen-mw",
     "GitHub": "https://github.com/Princcessmimi0609"
 }
+
 PROJECTS = {
-    "🏆Website for Community Organisation": {
-        "Link": "https://princcessmimi0609.github.io/farmabbrington/",
-        "Description": "- Using HTML 5, CSS 3 and JavaScript"
+    "🏆PowerApps Expenses Management App": {
+        "Link": "https://youtu.be/DTncc0WHYWo?si=4AFtOHiicIIfJ-D1",
+        "Description": "I developed an Expenses App using Power Apps to streamline expense tracking and approval. 
+                        It uses AI Builder to extract data from receipts, categorizes expenses (e.g., Meals, IT Hardware), 
+                        and stores data in SharePoint. The app automates the approval process based on predefined thresholds, 
+                        sending notifications for timely reviews. A dashboard provides real-time tracking, making expense management 
+                        more efficient and transparent."            
+        },
+
+    "🏆Website for Attendance Record": {
+        "Link": "https://github.com/Princcessmimi0609/Django",
+        "Description": "Attendance Record for Church"
     },
     
-    "🏆Sales Data Analysis": {
+    "🏆Sales Data Analyst": {
         "Link": "https://youtu.be/AQA9vEC3u_I",
-        "Description": "- Using Microsoft SQL Server Management consuming data from Dynamic 365"
+        "Description": "This video offers a comprehensive introduction to SQL, covering essential concepts like data retrieval, 
+                        filtering, and aggregation using SELECT queries. Perfect for beginners, the presentation walks through 
+                        key SQL commands with examples, helping viewers understand how to manage and manipulate databases effectively."
     },
 
-    "🏆Nominal Account Analysis": {
+    "🏆Proft & Loss Analyst": {
         "Link": "https://youtu.be/lvUMjgELtqo",
-        "Description": "- Power BI reports built consuming data from Dynamic 365 Finance & Accounting Module"
-    },
-
-    "🏆PowerApps Company Director": {
-        "Link": "https://youtu.be/Q4tD_YmrqiA",
-        "Description": "- Using Power Apps built consuming data from Google Sheets"            
-        }
+        "Description": "This Power BI dashboard provides a detailed analysis of profit and loss (P&L) by GL account, 
+                        offering insights into revenue, expenses, and profitability. It allows users to drill down 
+                        into specific accounts, track performance trends, and analyze variances. With interactive visuals 
+                        and real-time data integration, it helps streamline financial analysis and decision-making"
+    }
 }
 
 
