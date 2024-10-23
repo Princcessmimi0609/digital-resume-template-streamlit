@@ -121,14 +121,14 @@ Passionate about problem-solving and streamlining business processes through inn
 st.write("#")
 st.subheader("Skills")
 st.write(
-description = """
-- Power Apps: Custom app development, data integration, UI design
-- Power Automate: Workflow automation, approval processes, task automation
-- AI Builder: Receipt processing, automated document extraction
-- Python: Data analysis, automation scripts, web development (Django)
-- SharePoint: List management, data integration, process automation
-- SQL & Google BigQuery: Data manipulation, reporting, querying
-- Other Tools: Power BI, HTML, CSS, JavaScript, Microsoft SQL Server, MySQL
+     """
+- ▪ Power Apps: Custom app development, data integration, UI design
+- ▪ Power Automate: Workflow automation, approval processes, task automation
+- ▪ AI Builder: Receipt processing, automated document extraction
+- ▪ Python: Data analysis, automation scripts, web development (Django)
+- ▪ SharePoint: List management, data integration, process automation
+- ▪ SQL & Google BigQuery: Data manipulation, reporting, querying
+- ▪ Other Tools: Power BI, HTML, CSS, JavaScript, Microsoft SQL Server, MySQL
 """ 
 )
 
@@ -141,8 +141,8 @@ st.write("---")
 st.write("**Accounts Assistant | Mallinson Television Productions Ltd – Scotland**")
 st.write("08/2023 - 07/2024")
 st.write(
-description = """
-- Manage general accounting duties including accounts payable, staff reimbursement and credit card reconciliation.
+    """
+- ▪ Manage general accounting duties including accounts payable, staff reimbursement and credit card reconciliation.
 """
 )
 
@@ -150,11 +150,11 @@ description = """
 st.write("**Capgemini – Power Apps Presentation Inviteed**")
 st.write("26/9/2024")
 st.write(
-description = """
-- Invited to share experiences of transitioning to IT and demonstrate Power Apps solutions developed, 
-  such as an Expenses Management System and AI-driven workflows.
-- Showcased expertise in app development, automation with Power Automate, and AI integration using AI Builder.
-"""
+    """
+- ▪ Invited to share experiences of transitioning to IT and demonstrate Power Apps solutions developed, 
+    such as an Expenses Management System and AI-driven workflows.
+- ▪ Showcased expertise in app development, automation with Power Automate, and AI integration using AI Builder.
+    """
 )
 
 
@@ -172,8 +172,10 @@ for key, value in PROJECTS.items():
 st.write("#")
 st.subheader("Education")
 st.write(
-description = """
-- Python (Cisco Networking Academy)
+    """
+- ▪ Python (Cisco Networking Academy)
+- ▪ Python for Beginners – Cisco Institution
+- ▪ Software Development with Python – [Glasgow Clyde College]
 """ 
 )
 
